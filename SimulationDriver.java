@@ -24,7 +24,7 @@ public class SimulationDriver {
 			submits = new multiSubmits();
 		}
 
-		// how the submissions object holds the submissions depends on the question type
+		// different submissions objects hold submissions differently 
 		submits.setContainer(question);
 
 		// the iVoter is given the question and submission container
